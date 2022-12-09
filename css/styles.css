@@ -433,6 +433,46 @@ margin-bottom: 30px;
 } */
 
 
+
+/* Клиенты */
+
+.clients .container {
+    padding: 94px 0px;
+}
+
+.clients-title {
+    font-weight: 700;
+        font-size: 36px;
+        line-height: 1.17;
+        text-align: center;
+        color: var(--title-text-color);
+}
+
+.clients.list. {
+    display: flex;
+}
+
+.clients-item {
+    width: 170px;
+    height: 92px;
+    border: 1px solid var(--passive-icons-color);
+    border-radius: 4px;
+}
+
+.clients-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    fill: var(--passive-icons-color);
+}
+
+.clients-link:hover,
+.clients-link:focus {
+    border: 1px solid var(--accent-color);
+    fill: var(--accent-color);
+}
 /* Футер */
 
 .contacts.section {
