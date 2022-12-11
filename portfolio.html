@@ -33,10 +33,19 @@
         </nav>
         <ul class="nav list contact">
           <li class="contact-item">
-            <a href="mailto:info@dewstudio.com" class="nav-button">info@dewstudio.com</a>
+            <a href="mailto:info@dewstudio.com" class="nav-button">
+              <svg class="contact-icon" width="16px" height="12px">
+                <use href="./images/icons.svg#icon-envelope"></use>
+              </svg>
+              info@dewstudio.com</a
+            >
           </li>
           <li class="contact-item">
-            <a href="tel:+380961111111" class="nav-button">+38 096 111 11 11</a>
+            <a href="tel:+380961111111" class="nav-button">
+              <svg class="contact-icon" width="10px" height="16px">
+                <use href="./images/icons.svg#icon-smartphone"></use></svg
+              >+38 096 111 11 11</a
+            >
           </li>
         </ul>
       </div>
@@ -111,23 +120,56 @@
       </section>
     </main>
     <footer class="contacts section">
-     <div class="container">
-        <p class="logo">Web<span class="logo-footer">Studio</span></p>
-        <address>
-          <ul class="contact list">
-            <li>
-              <a
-                href="https://goo.gl/maps/CPtrU1FHBa2aNyZL9"
-                target="_blank"
-                rel="noopener noreferrer nofollow"
-                class="contact-adress"
-                >м. Київ, пр-т Лесі Українки, 26</a
-              >
-            </li>
-            <li><a href="mailto:info@devstudio.com" class="contact-mail">info@devstudio.com</a></li>
-            <li><a href="tel:+380961111111" class="contact-tel">+38 096 111 11 11</a></li>
-          </ul>
-        </address>
+      <div class="container contacts">
+        <div class="adress block">
+          <p class="logo">Web<span class="logo-footer">Studio</span></p>
+          <address>
+            <ul class="contact list">
+              <li>
+                <a
+                  href="https://goo.gl/maps/CPtrU1FHBa2aNyZL9"
+                  target="_blank"
+                  rel="noopener noreferrer nofollow"
+                  class="contact-adress"
+                  >м. Київ, пр-т Лесі Українки, 26</a
+                >
+              </li>
+              <li>
+                <a href="mailto:info@devstudio.com" class="contact-mail">info@devstudio.com</a>
+              </li>
+              <li><a href="tel:+380961111111" class="contact-tel">+38 096 111 11 11</a></li>
+            </ul>
+          </address>
+        </div>
+        <div class="social block">
+          <h3 class="social title">Приєднуйтесь</h3>
+           <ul class="list social-network footer">
+                      <li class="social-item footer">
+                        <a class="social link" href=""
+                          ><svg width="20" height="20">
+                            <use href="./images/icons.svg#icon-instagram"></use></svg
+                        ></a>
+                      </li>
+                      <li class="social-item footer">
+                        <a class="social link" href=""
+                          ><svg width="20" height="20">
+                            <use href="./images/icons.svg#icon-twitter"></use></svg
+                        ></a>
+                      </li>
+                      <li class="social-item footer">
+                        <a class="social link" href=""
+                          ><svg width="20" height="20">
+                            <use href="./images/icons.svg#icon-facebook"></use></svg
+                        ></a>
+                      </li>
+                      <li class="social-item footer">
+                        <a class="social link" href=""
+                          ><svg width="20" height="20">
+                            <use href="./images/icons.svg#icon-linkedin"></use></svg
+                        ></a>
+                      </li>
+                    </ul>
+        </div>
       </div>
     </footer>
   </body>
